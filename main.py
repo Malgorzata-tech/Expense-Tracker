@@ -137,9 +137,9 @@ def run_gui():
             pass
         refresh_list()
 
-    filter_btn = tk.Button(filter_frame, text="Filtruj", command=on_filter)
+    filter_btn = tk.Button(filter_frame, text="Filtruj po kategorii", command=on_filter)
     filter_btn.pack(side=tk.LEFT, padx=5)
-    show_all_btn = tk.Button(filter_frame, text="Pokaż wszystkie", command=on_show_all)
+    show_all_btn = tk.Button(filter_frame, text="Odfiltruj", command=on_show_all)
     show_all_btn.pack(side=tk.LEFT, padx=5)
 
     # Tworzę ramkę listy
